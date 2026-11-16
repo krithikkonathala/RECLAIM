@@ -3,7 +3,8 @@ app.py - Main Entrypoint for RECLAIM Platform
 Handles global page configuration, theme injection, modern SaaS sidebar navigation,
 system health indicators, and route dispatching for the 5 core sections.
 """
-
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+import sys
 import os
 from pathlib import Path
 import streamlit as st
