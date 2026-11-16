@@ -69,3 +69,6 @@ data/*
 # Generated local data
 data/*
 !data/.gitkeep
+
+# Include Python source files in data folder
+!data/*.py

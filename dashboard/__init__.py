@@ -1,4 +1,4 @@
-"""Dashboard package for ContextIQ."""
+"""Dashboard package for RECLAIM."""
 from dashboard.overview import render_overview
 from dashboard.live_tracking import render_live_tracking
 from dashboard.recovery_analytics import render_recovery_analytics
